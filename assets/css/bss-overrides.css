@@ -22,10 +22,6 @@
   margin-bottom: 2.5rem !important;
 }
 
-.mt-1 {
-  margin-top: 0.3125rem !important;
-}
-
 .mt-2 {
   margin-top: 0.625rem !important;
 }
@@ -40,6 +36,10 @@
 
 .me-0 {
   margin-right: 0 !important;
+}
+
+.me-3 {
+  margin-right: 1.25rem !important;
 }
 
 .mb-0 {
@@ -62,12 +62,20 @@
   margin-bottom: 2.5rem !important;
 }
 
+.mb-5 {
+  margin-bottom: 3.75rem !important;
+}
+
 .ms-auto {
   margin-left: auto !important;
 }
 
 .p-0 {
   padding: 0 !important;
+}
+
+.p-4 {
+  padding: 2.5rem !important;
 }
 
 .px-0 {
@@ -110,6 +118,11 @@
   padding-bottom: 1.25rem !important;
 }
 
+.py-4 {
+  padding-top: 2.5rem !important;
+  padding-bottom: 2.5rem !important;
+}
+
 .py-5 {
   padding-top: 3.75rem !important;
   padding-bottom: 3.75rem !important;
@@ -140,10 +153,6 @@
   padding-bottom: 8.75rem !important;
 }
 
-.ps-2 {
-  padding-left: 0.625rem !important;
-}
-
 .ps-4 {
   padding-left: 2.5rem !important;
 }
@@ -156,20 +165,14 @@
 }
 
 @media (min-width: 768px) {
+  .me-md-auto {
+    margin-right: auto !important;
+  }
+}
+
+@media (min-width: 768px) {
   .mb-md-0 {
     margin-bottom: 0rem !important;
-  }
-}
-
-@media (min-width: 768px) {
-  .pe-md-4 {
-    padding-right: 2.5rem !important;
-  }
-}
-
-@media (min-width: 768px) {
-  .ps-md-0 {
-    padding-left: 0rem !important;
   }
 }
 
@@ -206,12 +209,6 @@
 }
 
 @media (min-width: 992px) {
-  .pe-lg-3 {
-    padding-right: 1.25rem !important;
-  }
-}
-
-@media (min-width: 992px) {
   .pe-lg-4 {
     padding-right: 2.5rem !important;
   }
@@ -224,33 +221,15 @@
 }
 
 @media (min-width: 992px) {
-  .ps-lg-0 {
-    padding-left: 0rem !important;
-  }
-}
-
-@media (min-width: 992px) {
-  .ps-lg-1 {
-    padding-left: 0.3125rem !important;
-  }
-}
-
-@media (min-width: 992px) {
   .ps-lg-4 {
     padding-left: 2.5rem !important;
   }
 }
 
 @media (min-width: 1200px) {
-  .px-xl-3 {
-    padding-left: 1.25rem !important;
-    padding-right: 1.25rem !important;
-  }
-}
-
-@media (min-width: 1200px) {
-  .pe-xl-4 {
-    padding-right: 2.5rem !important;
+  .py-xl-5 {
+    padding-top: 3.75rem !important;
+    padding-bottom: 3.75rem !important;
   }
 }
 
